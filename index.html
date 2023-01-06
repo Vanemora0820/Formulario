@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="" class="form" id="form">
+        <div class="form">
+            
+            <h2>Formulario</h2>
+
+            <div class="input-text"> 
+                <input type="text" id="nombre" name="" value="" placeholder="Nombre">
+                <small>Error Message</small>
+            </div>
+
+            <div class="input-text">
+                <label for="">Telefono:</label>
+                <input type="tel" id="telefono" name="" value="3" placeholder="Telefono">
+                <small>Error Message</small>
+            </div>
+
+            <div class="input-text">
+                <input type="text" id="cedula" name="" value="" placeholder="Cedula">
+                <small>Error Message</small>
+            </div>
+
+           <button type="submit"  class="btn">Enviar</button>
+            <p class="warning" id="warning"></p>
+        
+        </div>
+   </form>
+   <div id="error"></div>
+
+   <script src="formulario.js"></script>
+</body>
+</html>
